@@ -1,5 +1,9 @@
 # Astro Starter Kit: Minimal
 
+# Note
+
+No HTMX integration yet.
+
 ```sh
 bun create astro@latest -- --template minimal
 ```
