@@ -53,13 +53,12 @@ h1 {
   text-transform: uppercase;
 }
 
-.nav-links a:hover,
-.nav-links a:focus {
+.nav-links a:hover, a:focus {
   background-color: #ff9776;
 }
 
 .expanded {
-  display: unsert;
+  display: unset;
 }
 
 @media screen and (min-width: 636px) {

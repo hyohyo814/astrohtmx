@@ -59,7 +59,7 @@ const textCase = "uppercase";
     </ul>
     <p>My skills are:</p>
     <ul>
-      {skills.map(skill => <li clas="skill">{skill}</li>)}
+      {skills.map(skill => <li class="skill">{skill}</li>)}
     </ul>
 
     {happy && <p>I am happy to be learning Astro!</p>}
@@ -67,5 +67,9 @@ const textCase = "uppercase";
     {finished && <p>I finished this tutorial!</p>}
 
     {goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
+
+    <script>
+      import "../scripts/menu.js";
+    </script>
   </body>
 </html>
